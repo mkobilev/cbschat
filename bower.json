@@ -1,0 +1,17 @@
+{
+  "name": "cbschat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Max Kobilev <mkobilev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
