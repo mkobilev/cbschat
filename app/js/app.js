@@ -7,4 +7,4 @@ var config = {
 };
 firebase.initializeApp(config);
 
-angular.module('cbsChat', []);
+angular.module('cbsChat', ['firebase']);
