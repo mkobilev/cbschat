@@ -1,5 +1,8 @@
 @import vars
 
+body
+  font-family: sans-serif
+
 .chat-page
   height: 100vh
   display: flex
@@ -50,6 +53,18 @@
   float: right
   color: #ffffff
   background-color: $mainColor
+
+.message__photo
+  width: 30px
+  border-radius: 50%
+  border: 2px solid #ffffff
+  margin-right: 10px
+
+.message__author
+  font-weight: 700
+
+message__text
+  padding-top: 20px
 
 .chat-footer
   textarea

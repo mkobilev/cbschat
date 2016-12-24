@@ -15,6 +15,9 @@
 .btn-red {
   background-color: #fc0d1b; }
 
+body {
+  font-family: sans-serif; }
+
 .chat-page {
   height: 100vh;
   display: -webkit-flex;
@@ -75,6 +78,18 @@
   float: right;
   color: #ffffff;
   background-color: #4688f1; }
+
+.message__photo {
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-right: 10px; }
+
+.message__author {
+  font-weight: 700; }
+
+message__text {
+  padding-top: 20px; }
 
 .chat-footer textarea {
   width: 70%;
